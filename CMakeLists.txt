@@ -15,3 +15,6 @@ FetchContent_MakeAvailable(googletest)
 
 add_subdirectory(src)
 add_subdirectory(test)
+
+target_sources(compiler PRIVATE src/main.cc src/command_reader.h src/command.h src/command_type.h src/command_reader.cc src/utils.cc src/utils.h)
+target_sources(compilerTest PRIVATE src/command_reader.h src/command.h src/command_type.h src/command_reader.cc src/utils.cc src/utils.h)

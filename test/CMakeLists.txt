@@ -1,4 +1,2 @@
-project(compilerTest)
-
-add_executable(compilerTest example.cc)
+add_executable(compilerTest utils_test.cc)
 target_link_libraries(compilerTest gtest_main)
