@@ -11,6 +11,6 @@
 
 using namespace std;
 
-optional<list<string>> string_split(string value, string delimiter);
+optional<list<string>> string_split(const string& value, const string& delimiter);
 
 #endif //COMPILER__UTILS_H_
